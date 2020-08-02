@@ -13,19 +13,12 @@
 # @Last modified time: 2018-05-25T07:03:03+07:00
 #===================================================|
 
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Dashboard1 extends CI_Controller{
-
-  public function __construct()
-  {
-    parent::__construct();
-    //Codeigniter : Write Less Do More
-  }
-
-  function index()
-  {
-    $this->load->view('dashboard1');
-  }
-
+class Dashboard1 extends CI_Controller
+{
+    public function index()
+    {
+        $this->load->view('dashboard1');
+    }
 }
